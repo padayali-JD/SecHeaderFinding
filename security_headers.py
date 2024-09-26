@@ -1,6 +1,15 @@
 import requests
 import sys
-
+def print_header():
+   
+    header = """
+    ==============================================
+         SecHeaderFinding Tool by Padayali-JD
+    ==============================================
+    A professional tool to calculate API endpoints
+    ==============================================
+    """
+    print(header)
 security_headers = [
     'Content-Security-Policy', 
     'Strict-Transport-Security', 
