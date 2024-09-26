@@ -6,9 +6,7 @@ def print_header():
     ==============================================
          SecHeaderFinding Tool by Padayali-JD
     ==============================================
-    A professional tool to calculate API endpoints
-    ==============================================
-    """
+      """
     print(header)
 security_headers = [
     'Content-Security-Policy', 
